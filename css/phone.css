@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-image: url(imageName.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+body {
+    display: block;
+    margin: 0px -8px;
+    width: 94%;
+}
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* left: auto; */
+    width: 100%;
+}
+
+.formGroup input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+    padding-left: 30px !important;
+
+}
+.formWraper {
+    display: flex;
+    width: 55%;
+    height: 548px;
+    background-color: yellowgreen;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+.formDiv{
+    width: 50%;
+    padding: 8% 5px;
+    background-color: lavender;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.formGroup input {
+    width: 63%;
+    padding: 10px;
+    margin-bottom: 14px;
+    border-style: none;
+    padding-left: 30px !important;
+}
+.fa-user:before {
+    content: "\f007";
+    margin: 10px;
+}
+.fa-envelope:before {
+    content: "\f0e0";
+    margin: 10px;
+}
+.fa-lock:before {
+    content: "\f023";
+    margin: 10px;
+}
+.formWraper {
+    display: flex;
+    width: 74%;
+    height: 566px;
+    background-color: yellowgreen;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+}
