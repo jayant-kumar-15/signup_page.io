@@ -1,3 +1,5 @@
+@media only screen and (max-width: 800px) and (min-width: 373px)  {
+
 body {
     margin: 0px;
     padding: 0px;
@@ -9,19 +11,27 @@ body {
 }
 body {
     display: block;
-    margin: 0px -8px;
-    width: 94%;
+    /* margin: 0px -39px; */
+    margin: 0px -16px
+    width: 112%;
+   
+    /* width: 94%; */
 }
 .container {
     display: flex;
     align-content: center;
     justify-content: center;
-    /* left: auto; */
+    position: fixed;
     width: 100%;
+    /* bottom: 0; */
+    /* width: 100%; */
+    /* left: auto; */
+    /* width: 100%; */
+    /* width: 112%; */
 }
 
 .formGroup input {
-    width: 90%;
+    width: 80%;
     padding: 10px;
     margin-bottom: 10px;
     border-style: none;
@@ -30,13 +40,16 @@ body {
 }
 .formWraper {
     display: flex;
-    width: 55%;
-    height: 548px;
+    /* width: 55%;
+    height: 548px; */
+    width: 76%;
+    height: 535px;
     background-color: yellowgreen;
     margin-top: 80px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px black;
-}
+} 
+
 .formDiv{
     width: 50%;
     padding: 8% 5px;
@@ -72,4 +85,15 @@ body {
     margin-top: 80px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px black;
+}
+btn {
+    width: 85%;
+    padding: 15px;
+    background-color: green;
+    margin-top: 13px;
+    color: lavender;
+    border-radius: 20px;
+    border-style: none;
+}
+
 }
